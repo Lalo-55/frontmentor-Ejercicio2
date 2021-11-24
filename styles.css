@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-color:  hsl(225, 100%, 94%);
+    font-size: 16px;
+    font-family: sans-serif;
+   
+}
+.background{
+    position: absolute;
+    width: 100%;
+}
+.card{
+    /* background-color:aquamarine; */
+    background-color:  white;
+    position: relative;
+    top: 9vh;
+    width: 450px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:30px ;
+    overflow: hidden;
+
+}
+
+.card__header-img{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+ 
+   
+    
+}
+.card__text{
+    text-align: center;
+    /* background-color: rgb(219, 250, 187); */
+    width: 290px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    
+
+}
+.text{
+   
+    color:hsl(224, 23%, 55%) ;
+    line-height: 150%;
+    
+}
+.card__cost{
+    position:relative;
+    background-color: hsl(225, 100%, 98%);
+    border-radius:15px;
+    height: 80px;
+
+}
+.card__music{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 24px;
+    left: 20px;
+    margin-bottom: 50px;
+}
+.card__title-music{
+    position: relative;
+    /* background-color: yellowgreen; */
+    top: 23px;
+    right: 20px;
+    font-weight: bold;
+}
+.card__number{
+     
+    position: relative;
+    top: 10px;
+    right: 30px;
+    font-size: 14px;
+    color:hsl(224, 23%, 55%)
+}
+.card__change{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    color:hsl(245, 75%, 52%);
+    border: 0 solid hsl(245, 75%, 52%);
+    background-color: hsl(225, 100%, 98%);
+}
+
+.card__footer{
+ 
+   margin-top: 40px;
+  
+}
+.card__button-pay{
+    position: absolute;
+    right:70px;
+    padding: 10px 90px;
+    border-radius: 10px;
+    background-color:   hsl(245, 45%, 52%);
+    color: white;
+    font-weight: bold;
+    
+  
+
+}
+.card_button-cancel{
+    position: absolute;
+    bottom: 30px;
+    left: 175px;
+    font-weight: bold;
+    border: 0;
+    background-color: white;
+
+
+
+
+}
